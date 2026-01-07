@@ -1,13 +1,40 @@
+<!doctype html>
 <html>
-<head>
-<script type="text/javascript" src="js/latexit.js"></script>
-</head>
-<body>
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <script type="text/javascript" src="js/latexit.js"></script>
+  </head>
+  <body>
+    <nav>
+  
+    <a href="/" class="current">Home</a>
+  
+    <a href="/about.html">About</a>
+  
+    <a href="/blog.html">Blog</a>
+  
+</nav>
+
+    <h1>hello world!</h1>
 Here are my formulas
 <div lang="latex">1+sin(x)^2+3</div>
 <ul>
 <li lang="latex">x^2+y^2+z^2</li>
 <li lang="latex">a^2+b^2</li>
+<li lang="latex">
+\begin{equation}
+NPV = \sum_{t=0}^{n} \frac{CF_t}{(1 + i)^t}
+\end{equation}
+Where $CF_t$ is the net cash flow for period $t$, $i$ is the discount rate, and $n$ is the total number of periods [2].
+
+For a single future cash flow, the formula simplifies to:
+\begin{equation}
+NPV = \frac{F}{(1 + i)^n}
+\end{equation}
+</li>
 </ul>
-</body>
+
+  </body>
 </html>
